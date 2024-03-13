@@ -18,7 +18,7 @@ export default function Home() {
               likes={comment.likes}
             />
             {comment.replys && (
-              <div className="flex flex-col gap-6 ml-10 border-l-2 border-gray-300">
+              <div className="flex flex-col gap-6 ml-10 border-l-2 border-[##E8E9ED]">
                 {comment.replys.map((reply, index) => (
                   <CommentCard
                     key={index}

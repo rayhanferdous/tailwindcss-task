@@ -15,6 +15,7 @@ module.exports = {
         inter: ["Inter", "sans-serif"],
       },
       colors: {
+        "primary-bg": "#F5F6FA",
         "purple-primary": "#5358B6",
         "trash-bin": "#E86261",
         "like-btn-color": "#F5F6FA",

@@ -6,6 +6,6 @@
 
 @layer components {
   body {
-    @apply font-inter bg-slate-200;
+    @apply font-inter bg-primary-bg;
   }
 }
