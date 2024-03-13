@@ -23,7 +23,7 @@ const CommentCard = ({
       }`}
     >
       <div className="flex gap-5">
-        <div className="flex flex-col items-center justify-between bg-purple-100 rounded-xl py-1.5 px-2">
+        <div className="flex flex-col items-center justify-between bg-like-btn-color rounded-xl py-1.5 px-2">
           <PlusIcon />
           <span className="font-medium text-sm text-purple-primary">
             {likes}

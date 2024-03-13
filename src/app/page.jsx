@@ -1,10 +1,11 @@
+import CommentBox from "@/components/ui/CommentBox";
 import CommentCard from "@/components/ui/CommentCard";
 import { comments } from "@/const/comments";
 
 export default function Home() {
   return (
-    <main className="container h-screen">
-      <div className="flex flex-col gap-4 max-w-2xl">
+    <main className="container flex items-center justify-center py-20">
+      <div className="flex flex-col gap-6 max-w-2xl">
         {comments.map((comment, index) => (
           <>
             <CommentCard
@@ -17,7 +18,7 @@ export default function Home() {
               likes={comment.likes}
             />
             {comment.replys && (
-              <div className="flex flex-col gap-4 ml-10 border-l-2 border-gray-300">
+              <div className="flex flex-col gap-6 ml-10 border-l-2 border-gray-300">
                 {comment.replys.map((reply, index) => (
                   <CommentCard
                     key={index}
@@ -34,6 +35,7 @@ export default function Home() {
             )}
           </>
         ))}
+        <CommentBox />
       </div>
     </main>
   );
