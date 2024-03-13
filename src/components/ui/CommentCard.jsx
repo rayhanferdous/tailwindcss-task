@@ -23,9 +23,9 @@ const CommentCard = ({
       }`}
     >
       <div className="flex gap-5">
-        <div className="flex flex-col items-center justify-between bg-like-btn-color rounded-xl py-1.5 px-2">
+        <div className="flex flex-col items-center justify-between max-h-[5.5rem] bg-like-btn-color rounded-lg py-1.5 px-2.5">
           <PlusIcon />
-          <span className="font-medium text-sm text-purple-primary">
+          <span className="font-semibold text-sm text-purple-primary">
             {likes}
           </span>
           <MinusIcon />
@@ -50,7 +50,7 @@ const CommentCard = ({
                   )}
                 </div>
 
-                <p className="text-sm font-medium text-gray-500">
+                <p className="text-sm font-medium text-gray-primary leading-10">
                   {commentedAt}
                 </p>
               </div>
@@ -71,7 +71,7 @@ const CommentCard = ({
             </div>
           </div>
           <p
-            className="text-sm mt-2"
+            className="text-sm mt-2 text-gray-primary font-medium"
             dangerouslySetInnerHTML={{
               __html: comment,
             }}

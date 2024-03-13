@@ -11,7 +11,7 @@ const CommentBox = () => {
         className="rounded-full self-start"
       />
       <textarea
-        className="w-full h-20 p-4 border border-gray-300 rounded-lg"
+        className="w-full h-20 p-4 border border-gray-300 rounded-lg focus:outline-purple-primary"
         placeholder="Add a comment..."
       ></textarea>
 

@@ -5,7 +5,7 @@ const MinusIcon = () => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 20 20"
-      className="w-4 h-4 fill-gray-500 hover:fill-white hover:bg-purple-primary/30 rounded-sm cursor-pointer"
+      className="w-4 h-4 fill-gray-500 hover:fill-white hover:bg-purple-primary rounded-sm cursor-pointer"
     >
       <path
         fillRule="evenodd"

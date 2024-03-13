@@ -18,6 +18,7 @@ module.exports = {
         "purple-primary": "#5358B6",
         "trash-bin": "#E86261",
         "like-btn-color": "#F5F6FA",
+        "gray-primary": "#666A6D",
       },
     },
   },
