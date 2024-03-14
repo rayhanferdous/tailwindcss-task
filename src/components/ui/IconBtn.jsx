@@ -5,7 +5,7 @@ const IconBtn = ({ icon, title, textColor }) => {
     <button className="flex items-center gap-1.5 hover:scale-105 duration-300">
       {icon}
       <span
-        className={`font-semibold text-base ${
+        className={`font-semibold text-base max-md:hidden ${
           textColor ? "text-trash-bin" : "text-purple-primary"
         }`}
       >
