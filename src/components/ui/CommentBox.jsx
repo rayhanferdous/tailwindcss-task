@@ -19,7 +19,7 @@ const CommentBox = () => {
         type="submit"
         className="self-start bg-purple-primary text-white font-semibold py-2 px-4 rounded-md hover:bg-purple-700 transition duration-300 ease-in-out"
       >
-        Submit
+        Send
       </button>
     </form>
   );
