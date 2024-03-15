@@ -54,7 +54,7 @@ const CommentCard = ({
                   {commentedAt}
                 </p>
               </div>
-              <div className="flex items-center gap-6 max-xs:flex-col">
+              <div className="flex items-center gap-6 max-sm:flex-col">
                 {authUser ? (
                   <>
                     <IconBtn
