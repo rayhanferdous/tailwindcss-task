@@ -39,7 +39,7 @@ const CommentCard = ({
               height={40}
               className="rounded-full"
             />
-            <div className="flex items-center justify-between w-full">
+            <div className="flex items-center justify-between w-full gap-2">
               <div className="flex items-center max-md:gap-1.5 md:gap-5 max-md:flex-wrap">
                 <div className="flex items-center gap-3 max-md:flex-wrap">
                   <p className="text-sm text-slate-900 font-semibold">{name}</p>
